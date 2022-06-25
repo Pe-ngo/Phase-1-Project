@@ -146,3 +146,106 @@ nav .links ul li a:hover{
     color: #fff;
     padding-bottom: 20px;
 }
+
+.emailUpdate{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.emailUpdate form button{
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.emailUpdate form .getUpdate{
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+.emailUpdate form button:hover{
+    background-color: #fff;
+    color: blue;
+}
+
+.border{
+    border: 1px solid #fff;
+    width: 100%;
+}
+
+.term ul{
+    display: flex;
+    list-style: none;
+    margin-left: 38px;
+    margin-top: 50px;
+}
+
+.term ul li{
+    padding-left: 20px;
+}
+
+.term ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.term ul li a:hover{
+    background-color: blue;
+}
+
+.term ul button{
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.icons{
+    margin-left: 1000px;
+    margin-top: -20px;
+}
+
+.icons a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 60px;
+}
+
+.icons a .fa-facebook:hover{
+    background-color: blue;
+}
+
+.icons a .fa-twitter:hover{
+    background-color: blue;
+}
+
+.icons a .fa-instagram:hover{
+    background-color: blue;
+}
+
+.icons a .fa-linkedin:hover{
+    background-color: blue;
+}
+
+.icons a .fa-github:hover{
+    background-color: blue;
+}
+.copy{
+    margin-left: 55px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.copy .lit{
+    margin-right: 80px;
+}
