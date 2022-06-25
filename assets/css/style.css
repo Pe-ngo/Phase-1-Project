@@ -59,3 +59,43 @@ nav .links ul li a:hover{
     background-color: #fff;
     color: #4625;
 }
+
+.hero{
+    background-color: lightblue;
+}
+
+.hero-text{
+    text-align: center;
+    background-color: #fff;
+}
+
+.hero-text h1{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.hero-text img{
+    height: 500px;
+    width: 500px;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+.hero-text p{
+    margin-top: 10px;
+}
+
+.hero-text .getStarted{
+    background-color: #4625;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-text .getStarted:hover{
+    background-color: #fff;
+    color: black;
+}
+
