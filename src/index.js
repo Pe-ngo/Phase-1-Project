@@ -11,3 +11,9 @@ const locate = document.querySelector('#workLocation');
 const description = document.querySelector('#description');
 const dateOne = document.querySelector('#pub-date');
 
+//event listeners
+buttonOne.addEventListener('click', showCompanySection);
+type.addEventListener('select', selectCompanyName);
+buttonTwo.addEventListener('submit', displayJobDetails);
+
+
