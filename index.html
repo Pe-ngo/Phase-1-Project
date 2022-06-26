@@ -27,7 +27,7 @@
         </div>
     </nav>
 
-    <section class="hero">
+<section class="hero">
 
         <!-- About Us Section -->
         <div class="hero-text">
@@ -38,13 +38,14 @@
         </div>
 
     <!-- Company options -->
-    <section class="opton">
+  <section class="opton">
 
     <div class="company-options">
 
-        <select class="company-option-input" name="type" id="type">
+        <label for="type">Companies</label>
+        <select class="company-option-input" name="type" id="type" onchange="selectCompanyName();">
           
-          <option value="N/A">Company Name</option>
+          <option value="N/A">Select Company</option>
           <option value="Keeper Solutions">Keeper Solutions</option>
           <option value="Keeper Solutions">Keeper Solutions</option>
           <option value="ItsaCheckmate">ItsaCheckmate</option>
@@ -81,8 +82,9 @@
 
     <div class="searchSection">
         <form>
-                <input type="text" id="typeOne" placeholder="Search for a job using company name">
-                <button type="submit" id="buttonTwo">Search</button>
+            <label for="typeOne">Selection</label>
+            <input type="text" id="typeOne" placeholder="Search for a job using company name">
+            <button type="submit" id="buttonTwo">Search</button>
         </form>
 
     </div>
@@ -146,7 +148,7 @@
 
     </div>
 
-    </section>
+  </section>
 
     <!-- Footer -->
     <div class="footer">
@@ -192,10 +194,8 @@
 
     </div>
 
-    </section>
+</section>
 
-    <!-- Optional JavaScript -->
-    <script src="src/index.js"></script>
-
+  <script src="src/index.js"></script>
 </body>
 </html>
