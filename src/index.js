@@ -19,7 +19,7 @@ const dateOne = document.querySelector('#pub-date');
 //event listeners
 buttonOne.addEventListener('click', showCompanySection);
 type.addEventListener('change', selectCompanyName);
-// buttonTwo.addEventListener('submit', displayJobDetails);
+buttonTwo.addEventListener('click', displayJobDetails);
 
 
 //functions
@@ -32,6 +32,21 @@ function selectCompanyName() {
     typeOne.value = displaytext;
 }
 
+function displayJobDetails(e) {
+    e.preventDefault();
+    displayInfo();
+}
+
+function showJobInfo(info){
+    companyBrand.innerHTML = `${info.company_name}`;
+    
+}
+
+function displayInfo() {
+    fetch('https://remotive.com/api/remote-jobs?category=software-dev')
+    .then(res => res.json())
+    .then(info => showJobInfo(info))
+}
 
 //         logoImage.src = 'images/itsacheckmate.png';
 //         companyBrand.innerHTML = 'ItsaCheckmate';
