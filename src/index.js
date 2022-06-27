@@ -6,6 +6,7 @@ const buttonOne = document.querySelector('#buttonOne');
 const type = document.querySelector('#type');
 const typeOne = document.querySelector('#typeOne');
 const buttonTwo = document.querySelector('#buttonTwo');
+const details = document.querySelector('#jobDetails');
 })
 
 //event listeners
@@ -24,9 +25,16 @@ function selectCompanyName() {
     typeOne.value = displaytext;
 }
 
-// function displayJobDetails(e) {
-//     e.preventDefault();
-//     let jobInfo = {
+function displayJobDetails(e) {
+    e.preventDefault();
+    renderCompanies(jobs);
+    getCompany(jobs);
+}
+
+
+
+
+
 //         company_name:e.target.company,
 //         company_logo:e.target.logo,
 //         title:e.target.title,
@@ -57,35 +65,3 @@ function selectCompanyName() {
 //     displayInfo()
 // }
 // initialize()
-// //         logoImage.src = 'images/itsacheckmate.png';
-// //         companyBrand.innerHTML = 'ItsaCheckmate';
-// //     } else if (type.value === 'CodingAcademy') {
-// //         typeOne.innerHTML = 'Coding Academy';
-// //         logoImage.src = 'images/codingacademy.png';
-// //         companyBrand.innerHTML = 'Coding Academy';
-// //     } else if (type.value === 'Codecademy') {
-// //         typeOne.innerHTML = 'Codecademy';
-// //         logoImage.src = 'images/codecademy.png';
-// //         companyBrand.innerHTML = 'Codecademy';
-// //     } else if (type.value === 'Codecademy') {
-// //         typeOne.innerHTML = 'Codecademy';
-// //         logoImage.src = 'images/codecademy.png';
-// //         companyBrand.innerHTML = 'Codecademy';
-// //     } else if (type.value === 'Codecademy') {
-// //         typeOne.innerHTML = 'Codecademy';
-// //         logoImage.src = 'images/codecademy.png';
-// //         companyBrand.innerHTML = 'Codecademy';
-// //     } else if (type.value === 'Codecademy') {
-// //         typeOne.innerHTML = 'Codecademy';
-// //         logoImage.src = 'images/codecademy.png';
-// //         companyBrand.innerHTML = 'Codecademy';
-// //     } else if (type.value === 'Codecademy') {
-// //         typeOne.innerHTML = 'Codecademy';
-// //         logoImage.src = 'images/codecademy.png';
-// //         companyBrand.innerHTML = 'Codecademy';
-// //     } else if (type.value === 'Codecademy') {
-// //         typeOne.innerHTML = 'Codecademy';
-// //         logoImage.src = 'images/codecademy.png';
-// //         companyBrand.innerHTML = 'Codecademy';
-// //     }
-// // }

@@ -81,9 +81,9 @@ SOFTWARE.
 
 ## Authors Info
 
-- Name
+- Name:
   James Odiwuor
-- Email
+- Email:
   james.odiwuor@student.moringaschool.com)
 
 [Go Back to the Top](#moringa-school)
