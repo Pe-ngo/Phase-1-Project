@@ -13,7 +13,7 @@ const jobTitle = document.querySelector('#job-title');
 const locate = document.querySelector('#workLocation');
 const description = document.querySelector('#description');
 const dateOne = document.querySelector('#pub-date');
-
+const formGroup = document.querySelector('#form-group'); 
 })
 
 //event listeners
@@ -34,20 +34,37 @@ function selectCompanyName() {
 
 function displayJobDetails(e) {
     e.preventDefault();
-    displayInfo();
+    let jobInfo = {
+        company_name:e.target.company,
+        company_logo:e.target.logo,
+        title:e.target.title,
+        location:e.target.candidate_required_location,
+        description:e.target.description,
+        date:e.target.publication_date
+    }
+    displayInfo(jobInfo)
+    showJobInfo(jobInfo)
 }
 
-function showJobInfo(info){
-    companyBrand.innerHTML = `${info.company_name}`;
-    
+function showJobInfo(jobInfo){
+    // let companyBrand = document.getElementById('companyBrand')
+    // companyBrand.innerHTML = `company_name:${jobInfo.company_name}`
+    // formGroup.appendChild(companyBrand)
+    companyBrand.innerHTML = `company_name:${jobInfo.company_name}`
 }
 
-function displayInfo() {
+function displayInfo(jobInfo) {
     fetch('https://remotive.com/api/remote-jobs?category=software-dev')
     .then(res => res.json())
-    .then(info => showJobInfo(info))
+    .then(jobInfo => showJobInfo(jobInfo));    
 }
 
+
+
+function initialize(){
+    displayInfo()
+}
+initialize()
 //         logoImage.src = 'images/itsacheckmate.png';
 //         companyBrand.innerHTML = 'ItsaCheckmate';
 //     } else if (type.value === 'CodingAcademy') {
