@@ -31,6 +31,17 @@ function displayJobDetails(e) {
     getCompany(jobs);
 }
 
+//get request
+function getcompany() {
+    fetch("https://remotive.com/api/remote-jobs?category=software-dev")
+      .then((res) => res.json())
+      .then((company) =>
+        company.forEach((company) => {
+          renderCompanies(company);
+        })
+      );
+}
+
 
 
 
