@@ -28,7 +28,7 @@ As a user of this site,you will be able to:
 2. Retrieve job details of the selected company.
 3. Use the reset button to clear the data entered on the page.
 
-[Go Back to the top](#Moringa School)
+[Go Back to the top](#Moringa-School)
 
 ### Requirements
 
@@ -39,14 +39,14 @@ As a user of this site,you will be able to:
 
 ---
 
-\*To clone the repository use :git@github.com:Pe-ngo/Phase-1-Project.git then:
+To clone the repository use :git@github.com:Pe-ngo/Phase-1-Project.git then:
 
 - Unzip the downloaded files in a folder of choice.
 - Open the index file from the zipped file with any browser.
 
   ***
 
-  [Go Back to the top](#Moringa-School)
+[Go Back to the top](#Moringa-School)
 
 ### Live Link
 
@@ -81,6 +81,8 @@ SOFTWARE.
 
 ## Authors Info
 
-Name - [James Oudwori]
-Email - james.odiwuor@student.moringaschool.com)
+Name 
+James Odiwuor
+Email 
+james.odiwuor@student.moringaschool.com)
 [Go Back to the Top](#moringa-school)
