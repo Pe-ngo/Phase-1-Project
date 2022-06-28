@@ -1,5 +1,5 @@
 //DOM loaded event
-document.addEventListener('DOMContentLoaded', initialize);
+document.addEventListener('DOMContentLoaded',() => {
 
 //Get the elements
 const buttonOne = document.querySelector('#buttonOne');
@@ -104,6 +104,7 @@ function initialize() {
 initialize()
 
 
+})//DOM create paragraph to hold company names
 
 
 
