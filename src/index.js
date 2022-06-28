@@ -1,3 +1,6 @@
+//DOM loaded event
+document.addEventListener('DOMContentLoaded', initialize);
+
 //Get the elements
 const buttonOne = document.querySelector('#buttonOne');
 const type = document.querySelector('#type');
@@ -84,7 +87,7 @@ function displayCompany(company) {
 
 //get request
 function getCompany() {
-    fetch("http://localhost:3000/company")
+    fetch("https://jobs-app-server-heroku-hosting.herokuapp.com/company")
       .then((res) => res.json())
       .then((company) =>
       company.forEach((company) => {
