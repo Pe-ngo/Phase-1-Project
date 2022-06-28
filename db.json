@@ -1,0 +1,64 @@
+{
+  "company": [
+    {
+      "name": "Keeper Solutions",
+      "title": "Front-end Developer  ( Vue.Js )",
+      "location": "Worldwide",
+      "salary": "$65k - $75k",
+      "category": "Software Development",
+      "date": "23/06/2020",
+      "image": "https://remotive.com/job/1265662/logo"
+      
+    },
+    {
+        "name": "Itscheckmate",
+        "title": "Full Stack Developer",
+        "location": "Kenya",
+        "salary": "$75k - $85k",
+        "category": "Software Development",
+        "date": "23/06/2020",
+        "image": "https://remotive.com/job/1265424/logo"
+        
+    },
+    {
+        "name": "Dext",
+        "title": "Senior Backend Engineer",
+        "location": "USA",
+        "salary": "$95k - $110k",
+        "category": "Software Development",
+        "date": "24/06/2020",
+        "image": "https://remotive.com/job/1267596/logo"
+        
+    },
+    {
+        "name": "Manual",
+        "title": "Full Stack Developer",
+        "location": "UK",
+        "salary": "$60k - $80k",
+        "category": "Software Development",
+        "date": "26/06/2020",
+        "image": "https://remotive.com/job/1265550/logo"
+        
+    },
+    {
+        "name": "jane.app",
+        "title": "Senior Software Engineer",
+        "location": "Canada",
+        "salary": "$100k - $150k",
+        "category": "Software Development",
+        "date": "23/06/2020",
+        "image": "https://remotive.com/job/1266274/logo"
+        
+    },
+    {
+        "name": "Teamwork",
+        "title": "Senior Fullstack Engineer Web3",
+        "location": "USA, UK",
+        "salary": "$70k - $90k",
+        "category": "Software Development",
+        "date": "25/06/2020",
+        "image": "https://remotive.com/job/1264928/logo"
+        
+    }
+  ]
+}

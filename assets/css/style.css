@@ -125,20 +125,39 @@ nav .links ul li a:hover{
     margin-bottom: 20px;
 }
 
-.input-box{
-    width: 95%;
-    border-radius: 5px;
-    padding-bottom: 20px;
-}
-
-.form-group{
-    margin-top: 20px;
-}
-
-.form-group .company-name{
+.fetched-info{
+    height: 15vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     font-weight: bold;
     color: #fff;
 }
+
+#detailed-info{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+#detailed-info p{
+    padding: 3rem;
+}
+
+
+#detailed-info #image{
+    padding: 3rem;
+}
+
+#detailed-info #reset-button{
+    padding: 3rem;
+}
+
 
 .footer{
     background-color: black;
